@@ -1,0 +1,79 @@
+﻿store(&TARGETS) 'any'
+store(&NAME) 'colemak-dh-arabic-pro'
+store(&KMW_RTL) '1'
+begin Unicode > use(main)
+
+group(main) using keys
++ [K_U] > 'ع'
++ [K_W] > '😄'
++ [SHIFT K_K] > '🥺'
++ [SHIFT K_W] > '😂'
++ [SHIFT K_L] > '❤️'
++ [SHIFT K_M] > '👀'
++ [K_Q] > 'ً'
++ [SHIFT K_Q] > 'ٟ'
++ [SHIFT K_N] > 'ب'
++ [SHIFT K_B] > 'ن'
++ [SHIFT K_V] > '👌'
++ [SHIFT K_X] > '🔥'
++ [SHIFT K_Z] > '🎉'
++ [SHIFT K_U] > 'غ'
++ [SHIFT K_T] > 'ث'
++ [SHIFT K_E] > 'غ'
++ [SHIFT K_P] > 'خ'
++ [SHIFT K_R] > 'ز'
++ [SHIFT K_J] > 'ظ'
++ [SHIFT K_G] > 'خ'
++ [SHIFT K_F] > 'ق'
++ [SHIFT K_D] > 'ذ'
++ [SHIFT K_S] > 'ش'
++ [SHIFT K_C] > 'ض'
++ [SHIFT K_SLASH] > '؟'
++ [SHIFT K_O] > 'ؤ'
++ [SHIFT K_Y] > 'ئ'
+
+c --- Home Row (A R S T G  M N E I O) ---
++ [K_A] > 'ا'  c Alif
++ [K_R] > 'ر'  c Ra
++ [K_S] > 'س'  c Seen
++ [K_T] > 'ت'  c Ta
++ [K_G] > 'ج'  c Jeem (Central)
++ [K_M] > 'م'  c Meem
++ [K_N] > 'ن'  c Noon
++ [K_E] > 'ع'  c 'Ain (High frequency, fits E perfectly)
++ [K_I] > 'ي'  c Ya
++ [K_O] > 'و'  c Waw
+
+c --- Top Row (Q W F P B  J L U Y ;) ---
++ [K_F] > 'ف'  c Fa
++ [K_P] > 'ح'  c Ha (Hard H)
++ [K_B] > 'ب'  c Ba
++ [K_J] > 'ط'  c Tah (Emphatic T)
++ [K_L] > 'ل'  c Lam
++ [K_Y] > 'ء'  c Hamza (Stand-alone)
+
+c --- Bottom Row (Z X C D V  K H , . /) ---
++ [K_Z] > '🙏'
++ [K_X] > '👍'
++ [K_C] > 'ص'  c Sad (C looks like a curled S)
++ [K_D] > 'د'  c Dal
++ [K_V] > '🤝'
++ [K_K] > 'ك'  c Kaf
++ [K_H] > 'ه'  c Heh (Soft H)
+
+c --- Shift Layer (Modified/Rare letters) ---
++ [SHIFT K_A] > 'أ'
++ [SHIFT K_I] > 'ى'
++ [SHIFT K_H] > 'ة' c Ta Marbuta
+
+c --- Numbers ---
++ [K_0] > '٠'
++ [K_9] > '٩'
++ [K_8] > '٨'
++ [K_7] > '٧'
++ [K_6] > '٦'
++ [K_5] > '٥'
++ [K_4] > '٤'
++ [K_3] > '٣'
++ [K_2] > '٢'
++ [K_1] > '١'

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\colemak_dhas_ar.kpj</path>
+    <file ID="id_0b77d8ab71ce97ecc1724bc09d8f70a4" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_29b2295fd67c397daccfa1eb3728053a</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\colemak_dhas_ar.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e17c0cd2965bcc00389abc9a700b11</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\colemak_dhas_ar.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0b77d8ab71ce97ecc1724bc09d8f70a4</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak-dhas-ar.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-7|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-7|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-7|   |0</CodeFont>
+        <CharFont>Consolas|-7|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_89ea28adbb36f160f954554585073fad</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak_dhas_ar.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_951335f36eb7832d04d43f34e6634a9e</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak_dhas_ar.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_be8ce3433a69a6adbb27b1bbc9cce75d</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak_dhas_ar.kmn</FullPath>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_2509c0d4d78eda1ad1d4df05acbeca1f</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak_dhas_ar.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_14d0e1d4f3ac08ca4f0222b8f3635c7c</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak_dhas_ar.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4226cd10d5353462aca4a0d21d0dec19</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\..\build\colemak_dhas_ar.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_76b528bad0db70570db6a5466d89c8d8</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\..\build\colemak_dhas_ar.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d70c2463f1954dc3d46920a2eeb605f2</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\..\build\colemak_dhas_ar.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\..\LICENSE.md</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>colemak-dhas-ar.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\MW\Documents\Keyman Developer\Projects\colemak_dhas_ar\source\colemak-dhas-ar.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

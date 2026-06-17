@@ -1,0 +1,14 @@
+﻿c colemak_dhas_ar generated from template at 2026-03-05 13:03:12
+c with name "colemak-dhas-ar"
+store(&NAME) 'colemak-dhas-ar'
+store(&COPYRIGHT) 'Copyright © MagedWilliam'
+store(&VERSION) '10.0'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'colemak_dhas_ar.ico'
+store(&VISUALKEYBOARD) 'colemak_dhas_ar.kvks'
+store(&LAYOUTFILE) 'colemak_dhas_ar.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
