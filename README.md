@@ -24,9 +24,12 @@ Who is this for?
 
 This repo serve as one example of how to tackle this problem.
 
-<img src="V01.png">
+<img src="V02.png">
 
 > This image depects a 36 Ortholinear split keyboard
+
+<details>
+    <summary>theory</summary>
 
 The Theory
 ----------
@@ -340,3 +343,4 @@ It ends up feeling like writing an SMS on an old school Nokia 3310. It fixes the
 | 7    | 8     | 9      |    |   *    |  0   |   #   |
        | Space | Alpha  |    | select | back |
 ```
+</details>
