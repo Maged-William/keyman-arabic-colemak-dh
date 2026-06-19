@@ -33,61 +33,61 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4000, 0x30)) {
       if(1){
-        r=m=1;   // Line 72
+        r=m=1;   // Line 71
         k.KO(0,t,"٠");
       }
     }
     else if(k.KKM(e, 0x4000, 0x31)) {
       if(1){
-        r=m=1;   // Line 81
+        r=m=1;   // Line 80
         k.KO(0,t,"١");
       }
     }
     else if(k.KKM(e, 0x4000, 0x32)) {
       if(1){
-        r=m=1;   // Line 80
+        r=m=1;   // Line 79
         k.KO(0,t,"٢");
       }
     }
     else if(k.KKM(e, 0x4000, 0x33)) {
       if(1){
-        r=m=1;   // Line 79
+        r=m=1;   // Line 78
         k.KO(0,t,"٣");
       }
     }
     else if(k.KKM(e, 0x4000, 0x34)) {
       if(1){
-        r=m=1;   // Line 78
+        r=m=1;   // Line 77
         k.KO(0,t,"٤");
       }
     }
     else if(k.KKM(e, 0x4000, 0x35)) {
       if(1){
-        r=m=1;   // Line 77
+        r=m=1;   // Line 76
         k.KO(0,t,"٥");
       }
     }
     else if(k.KKM(e, 0x4000, 0x36)) {
       if(1){
-        r=m=1;   // Line 76
+        r=m=1;   // Line 75
         k.KO(0,t,"٦");
       }
     }
     else if(k.KKM(e, 0x4000, 0x37)) {
       if(1){
-        r=m=1;   // Line 75
+        r=m=1;   // Line 74
         k.KO(0,t,"٧");
       }
     }
     else if(k.KKM(e, 0x4000, 0x38)) {
       if(1){
-        r=m=1;   // Line 74
+        r=m=1;   // Line 73
         k.KO(0,t,"٨");
       }
     }
     else if(k.KKM(e, 0x4000, 0x39)) {
       if(1){
-        r=m=1;   // Line 73
+        r=m=1;   // Line 72
         k.KO(0,t,"٩");
       }
     }
@@ -105,8 +105,8 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4010, 0x41)) {
       if(1){
-        r=m=1;   // Line 67
-        k.KO(0,t,"أ");
+        r=m=1;   // Line 66
+        k.KO(0,t,"آ");
       }
     }
     else if(k.KKM(e, 0x4010, 0x42)) {
@@ -147,20 +147,20 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4010, 0x48)) {
       if(1){
-        r=m=1;   // Line 69
+        r=m=1;   // Line 68
         k.KO(0,t,"ة");
       }
     }
     else if(k.KKM(e, 0x4010, 0x49)) {
       if(1){
-        r=m=1;   // Line 68
-        k.KO(0,t,"ى");
+        r=m=1;   // Line 67
+        k.KO(0,t,"ئ");
       }
     }
     else if(k.KKM(e, 0x4010, 0x4A)) {
       if(1){
-        r=m=1;   // Line 7
-        k.KO(0,t,"ا");
+        r=m=1;   // Line 8
+        k.KO(0,t,"إ");
       }
     }
     else if(k.KKM(e, 0x4010, 0x4B)) {
@@ -172,12 +172,6 @@ function Keyboard_colemak_dhas_ar()
     else if(k.KKM(e, 0x4010, 0x4C)) {
       if(1){
         r=m=1;   // Line 23
-        k.KO(0,t,"ل");
-      }
-    }
-    else if(k.KKM(e, 0x4010, 0x4D)) {
-      if(1){
-        r=m=1;   // Line 9
         k.KO(0,t,"ﻻ");
       }
     }
@@ -250,7 +244,7 @@ function Keyboard_colemak_dhas_ar()
     else if(k.KKM(e, 0x4010, 0x59)) {
       if(1){
         r=m=1;   // Line 38
-        k.KO(0,t,"ئ");
+        k.KO(0,t,"۔");
       }
     }
     else if(k.KKM(e, 0x4010, 0x5A)) {
@@ -273,13 +267,13 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4000, 0x43)) {
       if(1){
-        r=m=1;   // Line 61
+        r=m=1;   // Line 60
         k.KO(0,t,"ق");
       }
     }
     else if(k.KKM(e, 0x4000, 0x44)) {
       if(1){
-        r=m=1;   // Line 62
+        r=m=1;   // Line 61
         k.KO(0,t,"د");
       }
     }
@@ -303,7 +297,7 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4000, 0x48)) {
       if(1){
-        r=m=1;   // Line 64
+        r=m=1;   // Line 63
         k.KO(0,t,"ه");
       }
     }
@@ -315,13 +309,13 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4000, 0x4A)) {
       if(1){
-        r=m=1;   // Line 8
-        k.KO(0,t,"إ");
+        r=m=1;   // Line 9
+        k.KO(0,t,"أ");
       }
     }
     else if(k.KKM(e, 0x4000, 0x4B)) {
       if(1){
-        r=m=1;   // Line 63
+        r=m=1;   // Line 62
         k.KO(0,t,"ك");
       }
     }
@@ -399,14 +393,14 @@ function Keyboard_colemak_dhas_ar()
     }
     else if(k.KKM(e, 0x4000, 0x58)) {
       if(1){
-        r=m=1;   // Line 60
+        r=m=1;   // Line 59
         k.KO(0,t,"ص");
       }
     }
     else if(k.KKM(e, 0x4000, 0x59)) {
       if(1){
-        r=m=1;   // Line 57
-        k.KO(0,t,"خ");
+        r=m=1;   // Line 7
+        k.KO(0,t,"ى");
       }
     }
     else if(k.KKM(e, 0x4000, 0x5A)) {

@@ -4,9 +4,9 @@ store(&KMW_RTL) '1'
 begin Unicode > use(main)
 
 group(main) using keys
-+ [SHIFT K_J] > 'ا'
-+ [K_J] > 'إ'
-+ [SHIFT K_M] > 'ﻻ'
++ [K_Y] > 'ى'
++ [SHIFT K_J] > 'إ'
++ [K_J] > 'أ'
 + [K_Z] > 'ظ'
 + [K_U] > 'غ'
 + [K_COLON] > '؛'
@@ -20,7 +20,7 @@ group(main) using keys
 + [SHIFT K_Z] > 'ٕ'
 + [K_COMMA] > '،'
 + [K_Q] > 'ط'
-+ [SHIFT K_L] > 'ل'
++ [SHIFT K_L] > 'ﻻ'
 + [SHIFT K_K] > 'ك'
 + [SHIFT K_N] > 'ء'
 + [SHIFT K_B] > 'ح'
@@ -35,7 +35,7 @@ group(main) using keys
 + [SHIFT K_C] > 'ق'
 + [SHIFT K_SLASH] > '؟'
 + [SHIFT K_O] > 'ؤ'
-+ [SHIFT K_Y] > 'ئ'
++ [SHIFT K_Y] > '۔'
 
 c --- Home Row (A R S T G  M N E I O) ---
 + [K_A] > 'ا'  c Alif
@@ -54,7 +54,6 @@ c --- Top Row (Q W F P B  J L U Y ;) ---
 + [K_P] > 'ب'
 + [K_B] > 'ح'
 + [K_L] > 'ل'  c Lam
-+ [K_Y] > 'خ'
 
 c --- Bottom Row (Z X C D V  K H , . /) ---
 + [K_X] > 'ص'
@@ -64,8 +63,8 @@ c --- Bottom Row (Z X C D V  K H , . /) ---
 + [K_H] > 'ه'  c Heh (Soft H)
 
 c --- Shift Layer (Modified/Rare letters) ---
-+ [SHIFT K_A] > 'أ'
-+ [SHIFT K_I] > 'ى'
++ [SHIFT K_A] > 'آ'
++ [SHIFT K_I] > 'ئ'
 + [SHIFT K_H] > 'ة' c Ta Marbuta
 
 c --- Numbers ---
