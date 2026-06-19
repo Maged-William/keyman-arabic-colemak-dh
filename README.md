@@ -28,6 +28,8 @@ This repo serve as one example of how to tackle this problem.
 
 > This image depects a 36 Ortholinear split keyboard
 
+<details>
+       
 The Theory
 ----------
 
@@ -340,3 +342,6 @@ It ends up feeling like writing an SMS on an old school Nokia 3310. It fixes the
 | 7    | 8     | 9      |    |   *    |  0   |   #   |
        | Space | Alpha  |    | select | back |
 ```
+
+</details>
+
