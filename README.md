@@ -349,7 +349,7 @@ And finally we can call it done.
 | <kbd>Q</kbd> ط | <kbd>W</kbd> ض | <kbd>F</kbd> ف | <kbd>P</kbd> ب | <kbd>B</kbd> ح |  |<kbd>J</kbd> أ | <kbd>L</kbd> ل | <kbd>U</kbd> غ | <kbd>Y</kbd> ى| <kbd>;</kbd> ؛ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | <kbd>A</kbd> ا | <kbd>R</kbd> ر | <kbd>S</kbd> س | <kbd>T</kbd> ث | <kbd>G</kbd> ج |  | <kbd>M</kbd> م | <kbd>N</kbd> ن | <kbd>E</kbd> ع | <kbd>I</kbd> ي | <kbd>O</kbd> و | 
-| <kbd>Z</kbd> ظ | <kbd>X</kbd> ص | <kbd>C</kbd> ق | <kbd>D</kbd> ذ | <kbd>V</kbd> خ |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> / |
+| <kbd>Z</kbd> ظ | <kbd>X</kbd> ص | <kbd>C</kbd> ق | <kbd>D</kbd> ذ | <kbd>V</kbd> خ |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> |
 
 | <kbd>Q</kbd> ً | <kbd>W</kbd>  | <kbd>F</kbd>  | <kbd>P</kbd>  | <kbd>B</kbd>  |  |<kbd>J</kbd> إ | <kbd>L</kbd> ﻻ | <kbd>U</kbd> | <kbd>Y</kbd> | <kbd>;</kbd>  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
