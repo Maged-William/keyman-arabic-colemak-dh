@@ -9,7 +9,7 @@ colemak-dhas-ar keyboard (code name Gahbz)
 
 </details>
 
-> This image depects a 36 Ortholinear split keyboard
+> This image depects a 36 Ortholinear split keyboard that uses a mod version of Colemak-dh
 
 Description
 -----------
