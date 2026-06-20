@@ -11,13 +11,17 @@ colemak-dhas-ar keyboard (code name Gahbz)
 
 > This image depects a 36 Ortholinear split keyboard that uses a mod version of Colemak-dh
 
-Description
------------
-This is an Arabic mapping for custom layouts other than `QWERTY`  
+Who is this for?
+----------------
 
-It solves the problem with typing Arabic when you switch to an alternative layout like Colemak-dh
+- Someone who owns a keyboard with limited numbers of keys like 36 keys or less. *and*
+- Who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY` 
+- Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization. *and*
+- Who is not trying to breaking a world speed typing record.
 
-> 🚧 I only tested it on a custom Colemak-dh - but it might work on any layout 
+> Too specific 😂?
+
+This repo serve as one example of how to tackle this problem.
 
 It does so with punch of tricks:
 1. Matching the English phonetics, ex: B : ب
@@ -25,18 +29,7 @@ It does so with punch of tricks:
 3. Making up rules (seriously) that when followed gives a consistant results.
 4. Following the ethos of alternative layout for ergonomity with heavy use of the homerow.
 
-Who is this for?
-----------------
-
-- Someone who still uses a keyboard! *and*
-- Who is not trying to breaking a world speed typing record. *and*
-- Who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY`   
-- Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization. *and*
-- Has a keyboard with limited numbers of keys like 36 keys or less.
-
-> Too specific 😂?
-
-This repo serve as one example of how to tackle this problem.
+> 🚧 I only tested it on a custom Colemak-dh - but it might work on any layout 
 
 <details>
        
@@ -82,9 +75,9 @@ First of all Arabic is 28 letters plus other goodies called [diacritics](https:/
 If we tried to match pairs we will quickly find that only some letters will match phonetically.
 
 Enter [Arabizi](https://en.wikipedia.org/wiki/Arabizi), i do type in arabizi 80% of the time when im communicating in chat in Arabic.  
-Basically i want to reuse this skill, where if i want to type `جهبذ` in my mind i say `gahbz`.
+Basically i want to reuse this skill, where if i want to say `جهبذ` i type `gahbz`.
 
-There are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that may attempt to do take this a step further, where you get to type `gahbz` and it prints `جهبذ`, i think training an LLM to do so is probably would be a fun exercise too.
+There are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that may attempt to do take this a step further, where you get to type `gahbz` it prints `جهبذ`, i'd even think training an LLM to do so is probably would be a fun exercise too.
 
 For me at least, the keyboard is a plug and play, installing a specialized software should be optional or to be avoided completely.  
 Google Gboard approach is the closest thing to a frictionless arabizi to arabic, yet on Windows or other OSs it's not a thing.
@@ -96,7 +89,7 @@ Switching between the languages is simple and it works on the OS level (just don
 
 Other approaches would be to take a page from the [Chorded keyboards](https://en.wikipedia.org/wiki/Chorded_keyboard) book where they already do this with even fewer keys, and honestly im tempted to give it a try, i truly think it's a viable path with speed of thought output.
 
-For now ill have to stick to keyman, it's was frictionless for my needs, and maybe i'll explore the chorded path later as it has a hardware barier.
+For now i'll stick to keyman, it's was frictionless for my needs, and maybe i'll explore the chorded path later as it has a hardware barier.
 
 Moving on
 ---------
@@ -187,9 +180,9 @@ This leaves many unmached pairs, and just looks sad.
 Even in `QWERTY` we find that the 28 letters of arabic dont fit 1:1 to the english ones, you'd find ك with :; key.
 So what if we modefied the goal, from match 1:1 to make it discoverable while using English as the base faoundation.  
 
-Keyman gives us the ability to print a leter, but when while we are pressing Shift, we print another.
+Keyman gives us the ability to print a leter, but while the Shift modifier is held, we print another.
 
-This is the basis of the first trick here, why not print a letter, but when we have shift pressed, we print it's opposite similar?
+This is the basis of the second trick here, why not print a letter, but when we have shift pressed, we print it's opposite similar?
 
 The following will introduce an attempt:
 
@@ -233,8 +226,10 @@ So this is not bad at all, we got 8(16)✅, 9(11)✔️, 1(2)⚠️ and 3(6)❌,
 I think there are still room for optimization here, and even shake the ❌s into something that is closer to ⚠️.
 
 So what if we added a rule that said if we started with a form ex ت then the modifier version must have something extra (could be a dot or a hamza for example) in this case ث.
-this makes me comfortable with T having ت and also ث
-other examples already have this:
+
+This makes me comfortable with T having ت and also ث
+
+Other examples already have this:  
 - E | ع | غ
 - C | ص | ض
 - F | ف | ق
@@ -245,11 +240,9 @@ other examples already have this:
 
 I'll mark them as ✅ as they now follow this rule i just made up, except for B | ب, this one is the exception so ill treat it as the k l m n, although an argument could be made to add ت but T is much better.
 
-that leave us with the 3❌, i mean P has nothing to do with ح, J is not ط, Y though may easily becomes ى ي so ئ is not far, but following the previous rule, the modifier should have something extra to add, not less, so it deserves an ❌ still.
+That leave us with the 3❌s, i mean P has nothing to do with ح, J is not ط, Y though may easily becomes ى ي so ئ is not far, but following the previous rule, the modifier should have something extra to add, not less, so it deserves an ❌ still.
 
-
-
-Another rule i could make up is simply 
+No worries as there ❌ will mark the basis for the next trick.
 
 | EN | AR | Shift + AR | a match |
 | -- | -- | -- | -- |
@@ -282,6 +275,20 @@ Another rule i could make up is simply
 
 Well we even got spare keys, simply by having S = س reaching ش is a matter of holding Shift and pressing S.
 An opvious drawback is the thinking step, having to think where is ش and negotiating it is a tax.
+
+For the final trick, we simply make up more tricks of course.
+
+Let me explain, now that we made a good enough matches and opposits, it serves as the basis for any layout, here we have to branch out each keyboard is unique, each person is may choose a unique layout.
+
+So the following is a demo of how i optimized mine take it as inspiration:
+
+let's visually layout what we have on my 36 moded colemak-dh keyboard:
+
+| <kbd>Q</kbd> | <kbd>W</kbd> | <kbd>F</kbd> ف ق | <kbd>P</kbd> ط ظ | <kbd>B</kbd> ب |  |<kbd>J</kbd> | <kbd>L</kbd> ل | <kbd>U</kbd> | <kbd>Y</kbd> | <kbd>;</kbd> ؛ | <kbd>[</kbd>  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -- |
+| <kbd>A</kbd> ا أ | <kbd>R</kbd> ر ز | <kbd>S</kbd> س ش | <kbd>T</kbd> ت ث | <kbd>G</kbd> ج ح |  | <kbd>M</kbd> م | <kbd>N</kbd> ن | <kbd>E</kbd> ع غ | <kbd>I</kbd> ى ي | <kbd>O</kbd> و | <kbd>'</kbd> ، |
+| <kbd>Z</kbd>  | <kbd>X</kbd> ح خ | <kbd>C</kbd> ص ض | <kbd>D</kbd> د ذ | <kbd>V</kbd> |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> ؟ | |
+
 
 Trying it out
 -------------
