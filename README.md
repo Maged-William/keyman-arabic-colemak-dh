@@ -15,7 +15,9 @@ Description
 -----------
 This is an Arabic mapping for custom layouts other than `QWERTY`  
 
-It solves the problem when you switch to Colemak-dh for example (i only tested it on a custom Colemak-dh - but it might work on any layout), 
+It solves the problem with typing Arabic when you switch to an alternative layout like Colemak-dh
+
+> 🚧 I only tested it on a custom Colemak-dh - but it might work on any layout 
 
 It does so with punch of tricks:
 1. Matching the English phonetics, ex: B : ب
