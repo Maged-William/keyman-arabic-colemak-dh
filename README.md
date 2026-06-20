@@ -3,7 +3,7 @@ colemak-dhas-ar keyboard (code name Gahbz)
 
 <img src="gahbz.png">
 
-<details>
+<details>ت
 
 <img src="V02.png">
 
@@ -359,6 +359,8 @@ To get an idea of how it feels:
 - Install keyman
 - Download this repo
 - Double click `/build/colemak-dhas-ar.kmx`
+- Right click the keyman and press ...configuration, press Add/remove language...
+- Remove the English and add Arabic.
 
 Now switch your language to it, and test it out.
 
