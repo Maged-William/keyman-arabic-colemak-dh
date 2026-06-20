@@ -31,7 +31,7 @@ Who is this for?
 - Someone who still uses a keyboard! *and*
 - Who is not trying to breaking a world speed typing record. *and*
 - Who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY`   
-- Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization.
+- Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization. *and*
 - Has a keyboard with limited numbers of keys like 36 keys or less.
 
 > Too specific 😂?
