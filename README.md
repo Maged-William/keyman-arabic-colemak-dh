@@ -22,18 +22,17 @@ It solves the problem with typing Arabic when you switch to an alternative layou
 It does so with punch of tricks:
 1. Matching the English phonetics, ex: B : ب
 2. Heavy use of the shift modifire to reach other letters that are opposite to it, ex: Shift + ذ = د
-3. Make use of the empty slots, by adding top used emojis, also replacing the Western Arabic numerals 0123456789 by Eastern Arabic numerals ٠١٢٣٤٥٦٧٨٩ [see](https://www.youtube.com/watch?v=9R08o0rMTko)
-4. Making up rules that when followed gives a consistant results.
-5. following the ethos of alternative layout for ergonomity and heavy use of the homerow.
+3. Making up rules (seriously) that when followed gives a consistant results.
+4. Following the ethos of alternative layout for ergonomity with heavy use of the homerow.
 
 Who is this for?
 ----------------
 
-- Someone who still uses a keyboard!
-- Someone who is not trying to breaking a world speed typing record.
-- Also someone who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY`   
+- Someone who still uses a keyboard! *and*
+- Someone who is not trying to breaking a world speed typing record. *and*
+- Someone who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY`   
 - Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization.
-- Someone has a keyboard with limited numbers of keys like 34 36 keys or less.
+- Someone has a keyboard with limited numbers of keys like 36 keys or less.
 
 > Too specific 😂?
 
