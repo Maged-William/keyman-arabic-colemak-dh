@@ -63,7 +63,7 @@ To (in `Colemak-dh`)
 | <kbd>A</kbd> ش | <kbd>R</kbd> ق | <kbd>S</kbd> س | <kbd>T</kbd> ف | <kbd>G</kbd> ل | <kbd>M</kbd> ة | <kbd>N</kbd> ى | <kbd>E</kbd> ث | <kbd>I</kbd> ه | <kbd>O</kbd> خ | <kbd>'</kbd> ط |
 | <kbd>Z</kbd> ئ | <kbd>X</kbd> ء | <kbd>C</kbd> ؤ | <kbd>D</kbd> ي | <kbd>V</kbd> ر | <kbd>K</kbd> ن | <kbd>H</kbd> ا | <kbd>,</kbd> و | <kbd>.</kbd> ز | <kbd>/</kbd> ظ | |
 
-Yeah; i gave that a try. Arabic with Colemak-dh was a nightmare (similar to using `QWERTY` after learning about Colemak-dh for me i simply couldnt go back).
+Yeah; i gave that a try. Arabic with Colemak-dh (or any alternative layouts) is a nightmare.
 
 This makes the act of moving to another layout very costly for Arabic speaking individuals like me, from the time i moved to Colemak-dh i could only type in arabic from my phone!.
 
@@ -72,22 +72,7 @@ This makes the act of moving to another layout very costly for Arabic speaking i
 It feels incredibly organized at first glance, right? Your eyes trace the layout and see perfect visual pairs and logical clusters grouped together: `ض ص`, `ف ق`, `ع غ`, `خ ح ج`, and `ش س`.
 
 While pairing letters like ش and س looks neat, it’s an ergonomic trap.   
-Because similar-looking letters are crammed onto adjacent keys, you rarely get to "roll" over them. Instead, a single finger is forced to rapidly stutter and jump all over the place just to execute common letter combinations. It’s the illusion of order masking QWERTY's classic, chaotic mechanics.
-
-### Want to stay QWERTY?
-
-Maybe i accidentally convienced you to somehow stay on `QWERTY`, i'll even make it harder to switching away from it:
-
-> [All speed records belong to `QWERTY`!](https://monkeytype.com/profile/rocket) 
-
-But it’s a bit like Newton’s law of gravity: it works beautifully right up until your goal shifts from launching a satellite to orbiting a black hole.
-
-So it's all about the end goal here, if we are talking record shattering +200WPM, then you are in the wrong place on the internet (if this were a formal document id link to [who is this for](#who-is-this-for) section).
-
-For example here's few of my goals:
-- To learn touch typing with a layout that makes sense, focusing on accuracy not speed.
-- Saving my fingers form a potential RSI, Colemak-dh does this by having all the frequent vowels in the homerow hence your fingers will move less.
-- Not sacrificying my Arabic in this journey.
+Because similar-looking letters are crammed onto adjacent keys, you rarely get to ["roll" over](https://en.wikipedia.org/wiki/Key_rollover) them. Instead, a single finger is forced to rapidly stutter and jump all over the place just to execute common letter combinations. It’s the illusion of order masking QWERTY's classic, chaotic mechanics.
 
 My solution
 -----------
@@ -343,6 +328,22 @@ It ends up feeling like writing an SMS on an old school Nokia 3310. It fixes the
 | 7    | 8     | 9      |    |   *    |  0   |   #   |
        | Space | Alpha  |    | select | back |
 ```
+
+
+### Want to stay QWERTY?
+
+Maybe i accidentally convienced you to somehow stay on `QWERTY`, i'll even make it harder to switching away from it:
+
+> [All speed records belong to `QWERTY`!](https://monkeytype.com/profile/rocket) 
+
+But it’s a bit like Newton’s law of gravity: it works beautifully right up until your goal shifts from launching a satellite to orbiting a black hole.
+
+So it's all about the end goal here, if we are talking record shattering +200WPM, then you are in the wrong place on the internet (if this were a formal document id link to [who is this for](#who-is-this-for) section).
+
+For example here's few of my goals:
+- To learn touch typing with a layout that makes sense, focusing on accuracy not speed.
+- Saving my fingers form a potential RSI, Colemak-dh does this by having all the frequent vowels in the homerow hence your fingers will move less.
+- Not sacrificying my Arabic in this journey.
 
 </details>
 
