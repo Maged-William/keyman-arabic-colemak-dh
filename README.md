@@ -284,11 +284,72 @@ So the following is a demo of how i optimized mine take it as inspiration:
 
 let's visually layout what we have on my 36 moded colemak-dh keyboard:
 
-| <kbd>Q</kbd> | <kbd>W</kbd> | <kbd>F</kbd> ف ق | <kbd>P</kbd> ط ظ | <kbd>B</kbd> ب |  |<kbd>J</kbd> | <kbd>L</kbd> ل | <kbd>U</kbd> | <kbd>Y</kbd> | <kbd>;</kbd> ؛ | <kbd>[</kbd>  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -- |
-| <kbd>A</kbd> ا أ | <kbd>R</kbd> ر ز | <kbd>S</kbd> س ش | <kbd>T</kbd> ت ث | <kbd>G</kbd> ج ح |  | <kbd>M</kbd> م | <kbd>N</kbd> ن | <kbd>E</kbd> ع غ | <kbd>I</kbd> ى ي | <kbd>O</kbd> و | <kbd>'</kbd> ، |
-| <kbd>Z</kbd>  | <kbd>X</kbd> ح خ | <kbd>C</kbd> ص ض | <kbd>D</kbd> د ذ | <kbd>V</kbd> |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> ؟ | |
+| <kbd>Q</kbd> | <kbd>W</kbd> | <kbd>F</kbd> ف ق | <kbd>P</kbd> ط ظ | <kbd>B</kbd> ب |  |<kbd>J</kbd> | <kbd>L</kbd> ل | <kbd>U</kbd> | <kbd>Y</kbd> | <kbd>;</kbd> ؛ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| <kbd>A</kbd> ا أ | <kbd>R</kbd> ر ز | <kbd>S</kbd> س ش | <kbd>T</kbd> ت ث | <kbd>G</kbd> ج ح |  | <kbd>M</kbd> م | <kbd>N</kbd> ن | <kbd>E</kbd> ع غ | <kbd>I</kbd> ى ي | <kbd>O</kbd> و | 
+| <kbd>Z</kbd>  | <kbd>X</kbd> ح خ | <kbd>C</kbd> ص ض | <kbd>D</kbd> د ذ | <kbd>V</kbd> |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> ؟ |
 
+Notice how empty most the keys are empty
+
+```
+☑️☑️✅✅✅ ☑️✅☑️☑️☑️
+✅✅✅✅✅ ✅✅✅✅✅
+☑️✅✅✅☑️ ✅✅☑️☑️☑️
+```
+
+Atleast the homerow is busy, in my experience some keys are hard to reach and some are very easy to reach, here's a heat map for how reachable a key is:
+```
+✖️✅✅✅✖️ ✖️✅✅✅✖️
+✅✅✅✅☑️ ☑️✅✅✅✅
+☑️✅✅✅✖️ ✖️✅✅✅☑️
+```
+So why not find excuses (rules) to move twoard the ✅s?
+
+You guest it it's time for a new made up rule,
+Id move the ب from b to p, this way
+
+```
+☑️☑️✅✅☑️ ☑️✅☑️☑️☑️
+✅✅✅✅✅ ✅✅✅✅✅
+☑️☑️✅✅☑️ ✅✅☑️☑️☑️
+```
+
+Except for the k im way happier with this.
+
+Look at this g ج it makes no sense to have ح as it's modifier, also why not خ.
+Oh look at it's top and bottom neighbors, they are empty, so we get ح ج خ on the same column, and the clue is g to be ج
+And for ح is left neighbor is ب oh may gah we found حب
+```
+☑️☑️✅✅✅ ☑️✅☑️☑️☑️
+✅✅✅✅✅ ✅✅✅✅✅
+☑️☑️☑️✅✅ ✅✅☑️☑️☑️
+```
+
+I'm seeing a pattern here, if ح is top and خ is bottom, what if top ف had ق at the bottom
+c as ق is a stretch but not that far and it follow this new pattern
+
+one more, q and z are empty, lets add ط ظ
+w and x could be ض ص
+
+```
+✅✅✅✅✅ ☑️✅☑️☑️☑️
+✅✅✅✅✅ ✅✅✅✅✅
+✅✅✅✅✅ ✅✅☑️☑️☑️
+```
+
+Cool, we did the left half, how about the right half
+
+something about the right half screems "the modifier layer has nothing of importance" except for غ it's under e, well u is empty why not move it there.
+y tho sounds and looks like ى, lets move it there
+
+Finally the j looks like أ that leaves me with few diacritics
+
+And finally we can call it done.
+
+| <kbd>Q</kbd> ط | <kbd>W</kbd> ض | <kbd>F</kbd> ف | <kbd>P</kbd> ب | <kbd>B</kbd> ح |  |<kbd>J</kbd> أ | <kbd>L</kbd> ل | <kbd>U</kbd> غ | <kbd>Y</kbd> ى| <kbd>;</kbd> ؛ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| <kbd>A</kbd> ا | <kbd>R</kbd> ر ز | <kbd>S</kbd> س ش | <kbd>T</kbd> ت ث | <kbd>G</kbd> ج |  | <kbd>M</kbd> م | <kbd>N</kbd> ن | <kbd>E</kbd> ع | <kbd>I</kbd> ي | <kbd>O</kbd> و | 
+| <kbd>Z</kbd> ظ | <kbd>X</kbd> ص | <kbd>C</kbd> ق | <kbd>D</kbd> د ذ | <kbd>V</kbd> خ |   | <kbd>K</kbd> ك | <kbd>H</kbd> ه ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> ؟ |
 
 Trying it out
 -------------
