@@ -17,11 +17,12 @@ This is an Arabic mapping for custom layouts other than `QWERTY`
 
 It solves the problem when you switch to Colemak-dh for example (i only tested it on a custom Colemak-dh - but it might work on any layout), 
 
-It does so with couple of tricks:
+It does so with punch of tricks:
 1. Matching the English phonetics, ex: B : ب
-2. Heavy use of the shift modifire to reach other letters that are similar to it, ex: Shift + ظ = ط
+2. Heavy use of the shift modifire to reach other letters that are opposite to it, ex: Shift + ذ = د
 3. Make use of the empty slots, by adding top used emojis, also replacing the Western Arabic numerals 0123456789 by Eastern Arabic numerals ٠١٢٣٤٥٦٧٨٩ [see](https://www.youtube.com/watch?v=9R08o0rMTko)
 4. Making up rules that when followed gives a consistant results.
+5. following the ethos of alternative layout for ergonomity and heavy use of the homerow.
 
 Who is this for?
 ----------------
