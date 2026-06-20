@@ -81,12 +81,14 @@ First of all Arabic is 28 letters plus other goodies called [diacritics](https:/
 
 If we tried to match pairs we will quickly find that only some letters will match phonetically.
 
-Enter [Arabizi](https://en.wikipedia.org/wiki/Arabizi), i do type in arabizi 80% of the time when im communicating in chat i arabic.  
-Basically i want to reuse this skill, where if i want to type `جهبذ` in my mind i say `gahbz` and it should print `جهبذ`!
+Enter [Arabizi](https://en.wikipedia.org/wiki/Arabizi), i do type in arabizi 80% of the time when im communicating in chat in Arabic.  
+Basically i want to reuse this skill, where if i want to type `جهبذ` in my mind i say `gahbz`.
 
-Yes there are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that may attempt to do so, i think training an LLM to do so is probably would be a fun exercise.
+There are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that may attempt to do take this a step further, where you get to type `gahbz` and it prints `جهبذ`, i think training an LLM to do so is probably would be a fun exercise too.
 
 For me at least, the keyboard is a plug and play, installing a specialized software should be optional or to be avoided completely.  
+Google Gboard approach is the closest thing to a frictionless arabizi to arabic, yet on Windows or other OSs it's not a thing.
+
 Here we are using a software called [Keyman](https://keyman.com/), as some other attack angles have their own limitation, firmwares like QMK or ZMK do not communicate back and forth with the OS to sinff out the selected language, naively switching between 2 layers when attempting to switch between languages (ex: Super + space = switch language and switch keyboard layer) will get out of sync quickly if the OS decided to change the language as they do.
 
 The unique approach of keyman that it is simply another language you'd install and forget about.
