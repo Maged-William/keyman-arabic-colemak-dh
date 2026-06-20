@@ -25,7 +25,7 @@ group(main) using keys
 + [SHIFT K_N] > 'ء'
 + [SHIFT K_B] > 'ح'
 + [SHIFT K_T] > 'ث'
-+ [SHIFT K_E] > 'ئ'
++ [SHIFT K_E] > 'ء'
 + [SHIFT K_P] > 'ب'
 + [SHIFT K_R] > 'ز'
 + [SHIFT K_G] > 'خ'

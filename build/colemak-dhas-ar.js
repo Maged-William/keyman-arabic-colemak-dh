@@ -130,7 +130,7 @@ function Keyboard_colemak_dhas_ar()
     else if(k.KKM(e, 0x4010, 0x45)) {
       if(1){
         r=m=1;   // Line 28
-        k.KO(0,t,"ئ");
+        k.KO(0,t,"ء");
       }
     }
     else if(k.KKM(e, 0x4010, 0x46)) {
