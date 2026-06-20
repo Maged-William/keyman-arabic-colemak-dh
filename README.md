@@ -1,7 +1,13 @@
 colemak-dhas-ar keyboard (code name Gahbz)
 ==============
 
+<img src="gahbz.png">
+
+<details>
+
 <img src="V02.png">
+
+</details>
 
 > This image depects a 36 Ortholinear split keyboard
 
