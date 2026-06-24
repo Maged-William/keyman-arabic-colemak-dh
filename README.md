@@ -77,15 +77,21 @@ If we tried to match pairs we will quickly find that only some letters will matc
 Enter [Arabizi](https://en.wikipedia.org/wiki/Arabizi), i do type in arabizi 80% of the time when im communicating in chat in Arabic.  
 Basically i want to reuse this skill, where if i want to say `جهبذ` i type `gahbz`.
 
-There are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that may attempt to do take this a step further, where you get to type `gahbz` it prints `جهبذ`, i'd even think training an LLM to do so is probably would be a fun exercise too.
+There are clever softwares ( [example](https://chromewebstore.google.com/detail/araflip/fknappimkkfpopcnklaoooodeanfabel), [example](https://arxiv.org/pdf/1912.01218) ) that attempted to take this a step further, where you get to type `gahbz` it prints `جهبذ`.  
+I'd even think training an LLM to do so would be a fun exercise.
 
-For me at least, the keyboard is a plug and play, installing a specialized software should be optional or to be avoided completely.  
-Google Gboard approach is the closest thing to a frictionless arabizi to arabic, yet on Windows or other OSs it's not a thing.
+My critisizim on not using a chrome extension, keyboards are a plug and play, installing a specialized software should be optional or to be avoided completely.  
+Google Gboard approach is the closest thing to a frictionless arabizi to arabic, yet other OSs like Windows doesnt have this specific feature.
 
-Here we are using a software called [Keyman](https://keyman.com/), as some other attack angles have their own limitation, firmwares like QMK or ZMK do not communicate back and forth with the OS to sinff out the selected language, naively switching between 2 layers when attempting to switch between languages (ex: Super + space = switch language and switch keyboard layer) will get out of sync quickly if the OS decided to change the language as they do.
+In a perfect world i'd find arabizi in every OS, but why wait, the following is not perfect because you are installing a software, but it's the closest thing to the gboard experience.
+
+Here we are using a software called [Keyman](https://keyman.com/), as other attack angles have their own limitation, firmwares like QMK or ZMK do not communicate back and forth with the OS to sinff out the selected language, and if we naively switched between 2 layers when attempting to switch between languages (ex: Super + space = switch language and switch keyboard layer) will get out of sync quickly if the OS decided to change the language as they do.
 
 The unique approach of keyman that it is simply another language you'd install and forget about.
-Switching between the languages is simple and it works on the OS level (just dont type your passwords with it)
+Switching between the languages is simple and it works on the OS level
+
+> [!WARNING]
+> just dont type your passwords with it
 
 Other approaches would be to take a page from the [Chorded keyboards](https://en.wikipedia.org/wiki/Chorded_keyboard) book where they already do this with even fewer keys, and honestly im tempted to give it a try, i truly think it's a viable path with speed of thought output.
 
@@ -134,6 +140,9 @@ The following table is from this [study](https://met.guc.edu.eg/Repository/Facul
 |           | u | ـُ  | u | u, o | |
 |           | o | ـُ  | o | u, o | o |
 
+> [!WARNING]
+> Rule ahead
+
 Taking this table as a reference, here's my attempt to match Arabic to English:
 
 | EN | AR | Possible stretch |
@@ -181,6 +190,9 @@ Even in `QWERTY` we find that the 28 letters of arabic dont fit 1:1 to the engli
 So what if we modefied the goal, from match 1:1 to make it discoverable while using English as the base faoundation.  
 
 Keyman gives us the ability to print a leter, but while the Shift modifier is held, we print another.
+
+> [!WARNING]
+> New rule ahead
 
 This is the basis of the second trick here, why not print a letter, but when we have shift pressed, we print it's opposite similar?
 
@@ -303,11 +315,10 @@ Atleast the homerow is busy, in my experience some keys are hard to reach and so
 ✅✅✅✅☑️ ☑️✅✅✅✅
 ☑️✅✅✅✖️ ✖️✅✅✅☑️
 ```
-So why not find excuses (rules) to move twoard the ✅s?
+So why not find rules(excuses) to move twoard the ✅s?
 
-You guest it it's time for a new made up rule,
-Id move the ب from b to p, this way
-
+You guest it it's time for a new made up rule,  
+Id move the ب from b to p, this way:
 ```
 ☑️☑️✅✅☑️ ☑️✅☑️☑️☑️
 ✅✅✅✅✅ ✅✅✅✅✅
@@ -316,14 +327,20 @@ Id move the ب from b to p, this way
 
 Except for the k im way happier with this.
 
-Look at this g ج it makes no sense to have ح as it's modifier, also why not خ.
+Look at this g ج it makes no sense to have ح as it's modifier, like why not خ?  
+
+> [!WARNING]
+> New rule ahead
+
 Oh look at it's top and bottom neighbors, they are empty, so we get ح ج خ on the same column, and the clue is g to be ج
-And for ح is left neighbor is ب oh may gah we found حب
+And for ح is left neighbor is ب oh may gah we found ❤️ حب
 ```
 ☑️☑️✅✅✅ ☑️✅☑️☑️☑️
 ✅✅✅✅✅ ✅✅✅✅✅
 ☑️☑️☑️✅✅ ✅✅☑️☑️☑️
 ```
+> [!WARNING]
+> New rule ahead
 
 I'm seeing a pattern here, if ح is top and خ is bottom, what if top ف had ق at the bottom
 c as ق is a stretch but not that far and it follow this new pattern
@@ -355,6 +372,14 @@ And finally we can call it done.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | <kbd>A</kbd> آ | <kbd>R</kbd> ز | <kbd>S</kbd> ش | <kbd>T</kbd> ث | <kbd>G</kbd>  |  | <kbd>M</kbd> | <kbd>N</kbd> | <kbd>E</kbd>ئ | <kbd>I</kbd> ئ | <kbd>O</kbd> ؤ | 
 | <kbd>Z</kbd> ٕ | <kbd>X</kbd> | <kbd>C</kbd> | <kbd>D</kbd> ذ | <kbd>V</kbd> |   | <kbd>K</kbd> | <kbd>H</kbd> ة | <kbd>,</kbd>  | <kbd>.</kbd>  | <kbd>/</kbd> ؟ |
+
+
+Next is to compare this to the heatmap of [the most frequently used arabic letters](https://en.wikipedia.org/wiki/Arabic_letter_frequency), and find more optimization, maybe return to this reachability heatmap
+```
+✖️✅✅✅✖️ ✖️✅✅✅✖️
+✅✅✅✅☑️ ☑️✅✅✅✅
+☑️✅✅✅✖️ ✖️✅✅✅☑️
+```
 
 
 Trying it out
