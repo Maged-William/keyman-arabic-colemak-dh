@@ -29,9 +29,9 @@ It does so with punch of tricks:
 3. Making up rules (seriously) that when followed gives a consistant results.
 4. Following the ethos of alternative layout for ergonomity with heavy use of the homerow.
 
-> 🚧 I only tested it on a custom Colemak-dh - but it might work on any layout 
+> [!WARNING]
+> I only tested it on a custom Colemak-dh - but it might work on any layout
 
-<details>
        
 The Theory
 ----------
@@ -448,5 +448,4 @@ For example here's few of my goals:
 - Saving my fingers form a potential RSI, Colemak-dh does this by having all the frequent vowels in the homerow hence your fingers will move less.
 - Not sacrificying my Arabic in this journey.
 
-</details>
 
