@@ -14,7 +14,7 @@ colemak-dhas-ar keyboard (code name Gahbz)
 Who is this for?
 ----------------
 
-- Someone who [still](https://www.reddit.com/r/theprimeagen/comments/1ue7zv9/lead_engineer_just_got_rid_of_his_keyboard/) owns a keyboard with limited numbers of keys like 36 keys or less. *and*
+- Someone who [still](https://www.reddit.com/r/theprimeagen/comments/1ue7zv9/lead_engineer_just_got_rid_of_his_keyboard/) owns a [keyboard](https://x.com/JarodLevy/status/2071566721110970528) with limited numbers of keys like 36 keys or less. *and*
 - Who uses *English* primarily and professionally and want to benefits from the alternative layouts [ex: Colemak, Dvorak ...] Other than `QWERTY` 
 - Yet also speaks *Arabic* and found that the only optimized *Arabic* layout was indeed `QWERTY` and by switching to other layout looses this optimization. *and*
 - Who is not trying to breaking a world speed typing record.
